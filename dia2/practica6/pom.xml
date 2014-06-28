@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.bstmexico</groupId>
-  <artifactId>practica2</artifactId>
+  <artifactId>practica6</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>practica2</name>
+  <name>practica6</name>
   <url>http://maven.apache.org</url>
 
   <properties>
