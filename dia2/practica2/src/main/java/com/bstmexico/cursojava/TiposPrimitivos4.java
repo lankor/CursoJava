@@ -12,7 +12,7 @@ public class TiposPrimitivos4 {
 		long longD = 9223372036854775807L;
 		long longE = -9223372036854775808L;
 //		Quitar el comentario de la siguiente linea
-//		long longF = 2938496512;
+		long longF = 2938496512;
 		
 		System.out.println("longA : " + longA);
 		System.out.println("longB : " + longB);

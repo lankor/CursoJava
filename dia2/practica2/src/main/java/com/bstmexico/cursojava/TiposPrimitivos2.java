@@ -27,6 +27,7 @@ public class TiposPrimitivos2 {
 		byteC--;
 		System.out.println("byteC + 1: " + byteC);
 		
+		Byte.
 		if (byteC == Byte.MAX_VALUE) {
 			System.out.println("byteC contiene el valor maximo.");
 		}

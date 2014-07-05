@@ -19,6 +19,24 @@ public class TiposPrimitivos1 {
 		System.out.println("shortE : " + shortE);
 		
 //		Quitar el comentario de la siguiente linea.
-//		shortA = shortA + shortC; //La suma de 2 shorts no necesariamente es un byte y Java lo sabe.
+		shortA = shortA + shortC; //La suma de 2 shorts no necesariamente es un byte y Java lo sabe.
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

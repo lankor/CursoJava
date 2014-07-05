@@ -1,6 +1,6 @@
 package com.bstmexico.cursojava;
 
-public class Promocion {
+public class Operadores {
 	
 	public static void main(String arg[]) {
 		int intA = 95;
@@ -9,11 +9,16 @@ public class Promocion {
 		int intD = 70;
 		int intE = 70;
 		
+		/*
+		 * Operadores Aritméticos
+		 */
 		int suma = sumar(23, 73);
 		int resta = restar(33, 16);
 		int multiplicacion = multiplicar(5,7);
 		double division = dividir(234, 63);
 		int modulo = 3 % 2;
+		
+		boolean booleanA = true;
 		
 		System.out.println("suma : " + suma);
 		System.out.println("resta : " + resta);
@@ -33,6 +38,10 @@ public class Promocion {
 		System.out.println("incremento : " + ++resta);
 		System.out.println("suma : " + resta);
 		
+		
+		/*
+		 * Operadores lógicos
+		 */
 		if (suma > resta) {
 			System.out.println("El resultado de la suma es mayor que el de la resta");
 		}
@@ -69,6 +78,14 @@ public class Promocion {
 			System.out.println(intE + " es mayor o igual a " + intD + " y " 
 					+ intE + " es igual a " + intD);
 		}
+		
+		System.out.println("boolean : " + booleanA);
+		System.out.println("boolean : " + !booleanA);
+		
+		String resultado = (intE == intD) ? "Los valores son iguales." 
+										  : "Son diferentes";
+		
+		System.out.println(resultado);
 	}
 
 	private static double dividir(int intA, int intB) {
