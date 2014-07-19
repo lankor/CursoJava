@@ -11,6 +11,7 @@ public class Main {
 		TestService lector = new TestService();
 		Random random = new Random();
 		do {
+			System.out.println("***************INICIO**************");
 			try {
 				Date date1 = new Date();
 				Date date2 = new Date(date1.getTime() + random.nextInt(1000000));
@@ -21,7 +22,10 @@ public class Main {
 				}
 			} catch (ApplicationException ex) {
 				ex.printStackTrace(System.err);
+			} finally {
+				System.out.println("**************** FIN ******************");
 			}
+			
 		} while (random.nextInt(1000) != 835);
 	}
 }
